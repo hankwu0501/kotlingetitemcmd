@@ -1,0 +1,8 @@
+name: GetItemCMD
+main: com.gmail.hankwu0501.Main
+author: hankwu0501
+version: ${project.version}
+api-version: 1.13
+
+command:
+  getitemcmd:
