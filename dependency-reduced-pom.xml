@@ -6,6 +6,12 @@
   <version>1.0-SNAPSHOT</version>
   <build>
     <sourceDirectory>src/main/kotlin</sourceDirectory>
+    <resources>
+      <resource>
+        <filtering>true</filtering>
+        <directory>src/main/resources</directory>
+      </resource>
+    </resources>
     <plugins>
       <plugin>
         <groupId>org.jetbrains.kotlin</groupId>

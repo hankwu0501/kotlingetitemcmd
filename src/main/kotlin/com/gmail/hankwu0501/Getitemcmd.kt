@@ -5,7 +5,7 @@ import org.bukkit.plugin.java.JavaPlugin
 
 class Getitemcmd: JavaPlugin() {
     override fun onEnable() {
-        print("插件啟動成功")
+        println("§2插件啟動成功")
         getCommand("getitemcmd")?.setExecutor(Command)
     }
 }

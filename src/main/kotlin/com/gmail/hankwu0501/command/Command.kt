@@ -13,12 +13,12 @@ object Command : CommandExecutor {
                 sender.sendMessage(iteminfo.toString())
                 return true
             }else {
+                sender.sendMessage("§c你沒有權限使用此指令")
                 return false
             }
         }else{
-            sender.sendMessage("你不是一位玩家!")
+            sender.sendMessage("§c你不是一位玩家!")
             return false
         }
-        return true
     }
 }

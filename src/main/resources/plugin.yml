@@ -7,4 +7,3 @@ api-version: 1.13
 commands:
   getitemcmd:
     description: 取得手上物品的資料
-    usage: 未知錯誤
