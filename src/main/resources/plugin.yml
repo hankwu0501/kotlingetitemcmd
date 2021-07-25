@@ -1,8 +1,10 @@
 name: GetItemCMD
-main: com.gmail.hankwu0501.Main
+main: com.gmail.hankwu0501.Getitemcmd
 author: hankwu0501
 version: ${project.version}
 api-version: 1.13
 
-command:
+commands:
   getitemcmd:
+    description: 取得手上物品的資料
+    usage: 未知錯誤
