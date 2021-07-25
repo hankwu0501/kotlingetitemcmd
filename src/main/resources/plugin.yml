@@ -3,6 +3,8 @@ main: com.gmail.hankwu0501.Getitemcmd
 author: hankwu0501
 version: ${project.version}
 api-version: 1.13
+depend:
+  - Kotlin
 
 commands:
   getitemcmd:
